@@ -34,3 +34,11 @@ const solution = (k, order) => {
     }
   }
 }
+
+const patternSolution = (k, order) => {
+  const sequence = [];
+
+  for (let i = 0; i < k; i++) {
+    sequence.push(i);
+  }
+}
